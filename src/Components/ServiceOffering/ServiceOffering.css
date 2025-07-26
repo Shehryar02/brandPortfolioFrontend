@@ -1,0 +1,41 @@
+.reactIcons {
+    font-size: 3.0rem !important;
+    color: black;
+    /* Bordering */
+    font-size: 4.0rem !important;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .servicePara-lightMode {
+        font-size: 14px;
+    }
+  }
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* .lastTwoColumnAboutPage {
+        flex-direction: column;
+    } */
+
+    .servicePara-lightMode {
+        font-size: 11px;
+    }
+
+    
+  }
+
+
+
+@media (max-width: 575.98px) {
+    .lastTwoColumnAboutPage {
+        flex-direction: column;
+    }
+
+    .servicePara-lightMode {
+        font-size: 14px;
+    }
+  }

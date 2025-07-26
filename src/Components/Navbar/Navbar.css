@@ -1,0 +1,118 @@
+.menu-popup-lightMode {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    border-radius: 8px;
+  }
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.logoContainer:hover {
+  cursor: pointer;
+}
+
+  /* .navCol {
+    background-color: #010101 !important;
+    color: white !important;
+  }
+
+  .navCol h3 {
+    color: white !important;
+  }
+
+  .navCol p {
+    color: white !important;
+  } */
+  
+  .menu-popup-lightMode p {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .menu-popup-lightMode p:hover {
+    cursor: pointer;
+  }
+  
+  .menu-popup-lightMode {
+    animation: fadeSlideIn 0.3s ease forwards;
+  }
+  
+  .menu-popup-lightMode.closing {
+    animation: fadeSlideOut 0.3s ease forwards;
+  }
+
+  .centreMaterialNavbabr {
+    width: 40%;
+    /* background-color: red; */
+  }
+
+  .centreMaterialNavbabr p {
+    font-weight: 600;
+    color: black;
+    font-size: 17px;
+  }
+
+  .centreMaterialNavbabr p:hover {
+    cursor: pointer;
+  }
+
+  .nav-link-style {
+  cursor: pointer;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+/* .nav-link-style:hover {
+  border-bottom: 2px solid #999;
+} */
+
+.active-link {
+  border-bottom: 2px solid black; /* Use brand color if needed */
+  /* border-radius: 3px; */
+}
+
+  
+  @keyframes fadeSlideIn {
+    from {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeSlideOut {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+  }
+
+@media (max-width: 767px) {
+  .centreMaterialNavbabr {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 2199.98px) {
+  .hamburgerNavbar {
+    display: none;
+  }
+}
+
+  
+@media (max-width: 575.98px) {
+    .btn-mobile{
+        display: none !important;
+      }
+}

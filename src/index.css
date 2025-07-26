@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+/* * {
+  background-color:rgb(245, 239, 233);
+} */
+
+/* Apply this to only text elements like headings and paragraphs */
+p, h1, h2, h3, h4, h5, h6 {
+  -webkit-user-select: text;        /* Allow selection */
+  user-select: text;
+
+  -webkit-touch-callout: default;   /* Allow long press menu (copy) */
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none;     /* IE10+ */
+}
+

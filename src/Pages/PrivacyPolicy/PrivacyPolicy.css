@@ -1,0 +1,9 @@
+/* PrivacyPolicy.css */
+.privacy-policy h1, h4 {
+  color: #333;
+}
+
+.privacy-policy p {
+  color: #555;
+  line-height: 1.7;
+}

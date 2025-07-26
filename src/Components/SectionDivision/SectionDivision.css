@@ -1,0 +1,14 @@
+.sections-lightMode {
+    font-weight: 700;
+}
+
+
+@media (max-width: 575.98px) {
+    .section-mobile {
+        display: none;
+    }
+
+    .sections-lightMode {
+        font-size: 18px;
+    }
+  }

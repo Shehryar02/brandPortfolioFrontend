@@ -1,0 +1,268 @@
+#pricing1,
+#pricing2,
+#pricing3,
+#pricing4,
+#pricing5 {
+  scroll-margin-top: 100px;
+}
+
+.serviceCard-lightMode {
+  position: relative;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  height: 250px;
+}
+
+.serviceCard-lightMode:hover {
+  height: 480px; /* only this card expands */
+}
+
+.serviceDetails-lightMode {
+  margin-top: 10px;
+  padding-left: 0;
+  list-style-type: none; /* removes bullet points */
+  text-align: left;
+  width: 100%;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.serviceCard-lightMode:hover .serviceDetails-lightMode {
+  opacity: 1;
+  max-height: 300px;
+}
+
+.serviceDetails-lightMode li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.serviceCard-lightMode p {
+  font-weight: 700;
+}
+
+.serviceDetails-lightMode li i {
+  margin-right: 8px;
+}
+
+.seePricingBtn-lightMode {
+  border-radius: 12px;
+  width: 100%;
+  height: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* .lastTwoServiceContainer-smallScreens {
+  display: none;
+} */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .serviceDetails-lightMode li {
+    font-size: 10px;
+  }
+
+  .serviceCard-lightMode {
+    height: 360px;
+  }
+
+  .serviceCard-lightMode p {
+  font-size: 14px;
+}
+
+  .serviceCard-lightMode:hover {
+    height: 360px !important;
+  }
+
+  .serviceDetails-lightMode {
+    opacity: 1 !important;
+    max-height: 310px;
+  }
+
+  .seePricingBtn-lightMode {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+/* Small devices (phones, ≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* .lastTwoServiceContainer-smallScreens {
+    display: flex;
+  } */
+
+  .serviceCard-lightMode {
+    width: 30%;
+    height: 385px;
+  }
+
+  .serviceCard-lightMode p {
+    font-weight: 700;
+  }
+
+  .serviceCard-lightMode:hover {
+    height: 385px;
+  }
+
+  .serviceDetails-lightMode {
+    opacity: 1 !important;
+    max-height: 335px;
+  }
+
+  .serviceDetails-lightMode li {
+    font-size: 12px;
+  }
+
+  .seePricingBtn-lightMode {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  /* .lastTwoServiceContainer-bigScreen {
+    display: none !important;
+  } */
+}
+
+@media (min-width: 502px) and (max-width: 575px) {
+  .serviceCard-lightMode {
+    width: 48%;
+    height: 445px;
+  }
+
+  .serviceCard-lightMode p {
+    font-size: 18px;
+    position: relative;
+    bottom: 25px;
+    font-weight: 700;
+  }
+
+  .serviceCard-lightMode:hover {
+    height: 445px;
+  }
+
+  .serviceDetails-lightMode {
+    opacity: 1 !important;
+    max-height: 390px;
+  }
+
+  .serviceDetails-lightMode li {
+    font-size: 10px;
+  }
+
+  .seePricingBtn-lightMode {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 501px) {
+  .serviceCard-lightMode {
+    width: 48%;
+    height: 440px;
+  }
+
+  .serviceCard-lightMode p {
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 700;
+  }
+
+  .serviceCard-lightMode:hover {
+    height: 440px;
+  }
+
+  .serviceDetails-lightMode {
+    opacity: 1 !important;
+    max-height: 380px;
+  }
+
+  .serviceDetails-lightMode li {
+    font-size: 10px;
+  }
+
+  .seePricingBtn-lightMode {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 357px) and (max-width: 424px) {
+  .serviceCard-lightMode {
+    width: 48%;
+    height: 380px;
+    padding: 14px;
+  }
+
+  .serviceCard-lightMode p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .serviceCard-lightMode:hover {
+    height: 360px;
+  }
+
+  .serviceDetails-lightMode {
+    opacity: 1 !important;
+    max-height: 350px;
+  }
+
+  .serviceDetails-lightMode li {
+    font-size: 10px;
+  }
+
+  .seePricingBtn-lightMode {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 356px) {
+  .serviceCard-lightMode {
+    width: 48%;
+    height: 340px;
+    padding: 14px;
+  }
+
+  .serviceCard-lightMode p {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .serviceCard-lightMode:hover {
+    height: 330px;
+  }
+
+  .serviceDetails-lightMode {
+    opacity: 1 !important;
+    max-height: 300px;
+  }
+
+  .serviceDetails-lightMode li {
+    font-size: 10px;
+  }
+
+  .seePricingBtn-lightMode {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,319 @@
+/****************************************** OVERALL ******************************************/
+
+.iconFAwesom-lightMode {
+  color: black;
+}
+
+.iconFAwesomOppose-lightMode {
+  color: white;
+}
+
+.btns-lightMode {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 100px;
+  font-weight: 600;
+  transition: background-color 0.5s ease, color 1s ease;
+}
+
+.btns-lightMode:hover {
+  background-color: black;
+  color: white;
+}
+
+.btns-lightMode:hover i {
+  color: white;
+  transition: color 1s ease;
+}
+
+.para-lightMode {
+  color: #384152;
+}
+
+.span-lightMode {
+  color: #aeb2bb;
+}
+
+.mainTitle-lightMode {
+  color: black;
+}
+
+/****************************************** NAVBAR ******************************************/
+
+.menu-popup-lightMode {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.menu-popup-lightMode a {
+  color: #464646;
+}
+
+.menu-popup-lightMode a:hover {
+  color: black;
+}
+
+.shadowNavbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* X Y blur color */ 
+}
+
+/****************************************** HERO-BANNER ******************************************/
+
+.greetings-lightMode {
+  color: black;
+}
+
+.letsTalkbtn-lightMode {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  transition: background-color 0.5s ease, color 1s ease;
+}
+
+.letsTalkbtn-lightMode:hover {
+  background-color: white;
+  color: black;
+}
+
+.letsTalkbtn-lightMode:hover i {
+  color: black;
+  transition: color 1s ease;
+}
+
+/****************************************** SECTION-DIVISION ******************************************/
+
+.sections-lightMode {
+  color: black;
+}
+
+/****************************************** WORK-IMAGE-HOME ******************************************/
+
+.innerSections-lightMode h3 {
+  color: black;
+}
+
+/****************************************** ABOUT-HOME ******************************************/
+
+.services-list-lightMode li {
+  color: white;
+  /* background-color: rgb(27, 27, 27); */
+  background-color: rgb(18, 18, 18);
+  transition: background-color 0.5s ease, color 1s ease !important;
+}
+
+.services-list-lightMode li:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/****************************************** REVIEW-HOME ******************************************/
+
+.personData-lightMode h3 {
+  color: black;
+}
+
+/****************************************** PRE-FOOTER ******************************************/
+
+.preFooterUnderline-lightMode h6 {
+  color: black;
+}
+
+.preFooterUnderline-lightMode h6:hover {
+  text-decoration: none;
+  color: #afb3bb;
+  transition: color 0.2s ease !important;
+}
+
+/****************************************** FOOTER ******************************************/
+
+.contactDetails-lightMode h3 {
+  color: #6a7380;
+}
+
+.contactDetails-lightMode h6 {
+  color: #6a7380;
+}
+
+.stayConnectWMe-lightMode input {
+  color: white;
+  background-color: black;
+}
+
+.stayConnectWMe-lightMode div {
+  border-bottom: 1px solid white;
+}
+
+.footer-top-lightMode p {
+  color: #e3e6eb;
+}
+
+.stayConnectWMe-lightMode h3 {
+  color: #6a7380;
+}
+
+.socialLinksBtns-lightMode a {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s ease, color 1s ease;
+  text-decoration: none;
+}
+
+.socialLinksBtns-lightMode a:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer-lightMode {
+  background-color: black;
+}
+
+.footer-top-lightMode h2 {
+  color: white;
+}
+
+/* *********************************************** CONTACT PAGE *********************************************** */
+
+.contact-leftHalf-lightMode {
+  background-color: black;
+  color: white;
+}
+.contactInfoTopHeading-lightMode h2 {
+  color: white;
+}
+.contactInfoTopHeading-lightMode h3 {
+  color: gray;
+}
+.contactInfoMiddle-lightMode h3 {
+  color: rgb(202, 202, 202);
+}
+.contactInfoLower-lightMode div {
+  background-color: white;
+}
+.contactSelectSubjectIconDiv-Uncheck-lightMode {
+  background-color: #e0e0e0;
+}
+.contactSelectSubjectIconDiv-Check-lightMode {
+  background-color: black;
+}
+
+.contactMainContainer-lightMode input {
+  border-bottom: 1.5px solid rgb(184, 181, 181);
+  transition: border-bottom 0.6s ease;
+}
+.contactMainContainer-lightMode input:focus {
+  border-bottom: 1.5px solid black;
+}
+.sendMessageButton-lightMode button {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid black;
+  transition: background-color 0.5s ease, color 1s ease;
+}
+.sendMessageButton-lightMode button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* *********************************************** ABOUT PAGE *********************************************** */
+
+.aboutMainContanier-lightMode {
+  background-color: black;
+}
+
+.aboutText-lightMode {
+  color: white;
+}
+
+.aboutText-lightMode h2 {
+  color: white;
+}
+
+.aboutText-lightMode p {
+  color: white;
+}
+
+/* *********************************************** SERVICE OFFERING *********************************************** */
+
+.servicePara-lightMode {
+  color: black;
+}
+
+/* *********************************************** WHY CHOOSE US *********************************************** */
+.workProcessContainer-lightMode {
+  background-color: black;
+  color: white;
+}
+
+.cardsWorkProcess-lightMode {
+  border: 2px solid white;
+}
+
+.imageUpperCard-lightMode {
+  background-color: white;
+  color: black;
+}
+
+/* *********************************************** OUR SERVICES *********************************************** */
+
+.serviceCard-lightMode {
+  background-color: black;
+  color: white;
+}
+
+.serviceDetails-lightMode {
+  background-color: black;
+  color: white;
+}
+
+.seePricingBtn-lightMode {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* **************************** OUR SERVICES (PRICING COMPONENT) **************************** */
+
+.pricingServiceImage-lightMode {
+  background-color: black;
+}
+
+.priceBox-lightMode {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+.pricingHeading-lightMode {
+  color: black;
+  background-color: white;
+}
+
+.pricingMiddle-lightMode {
+  background-color: white;
+  color: black;
+}
+
+.choosePlanBtn-lightMode {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+.choosePlanBtnPrem-lightMode {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+  .btns-lightMode {
+    border: 0.5px solid black;
+  }
+}

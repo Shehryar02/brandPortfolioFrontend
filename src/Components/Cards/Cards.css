@@ -1,0 +1,406 @@
+.viewLiveScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.95); /* semi-transparent black */
+  z-index: 9999; /* on top of everything */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-size: 14px;
+}
+
+.carousel-item video {
+  /* height: 100%;
+  object-fit: cover; */
+  border-radius: 10px;
+}
+
+
+.carousel-item img {
+  border-radius: 10px;
+}
+
+
+
+.viewLiveScreen p {
+  color: rgb(220, 219, 219) !important;
+}
+
+.viewLiveScreen ul {
+  color: rgb(220, 219, 219) !important;
+}
+
+.viewLive-socialBtn {
+  width: 100px;
+  border: 1px solid black;
+  background-color: white;
+  height: 40px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.viewLive-socialIcon {
+  color: black;
+  font-size: 26px;
+}
+
+.viewLive-socialBtn:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.viewLive-socialBtn:hover .viewLive-socialIcon {
+  color: black;
+}
+
+.exit-button {
+  position: fixed;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 0px;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
+}
+
+.viewLiveScreen-mainHeading {
+  color: white;
+  font-weight: 700;
+}
+
+.viewLiveScreen-mainContent {
+  color: white;
+}
+
+.viewLiveScreen-shortHeading {
+  font-weight: 700;
+}
+
+.viewLiveScreen-ratingSection {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.viewLiveScreen-ratingSectionStar {
+  font-size: 18px;
+  margin-right: 6px
+}
+
+.viewLiveScreen-ratingSectionRating {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.viewLiveScreen-shortHeading {
+  margin-bottom: 8px;
+  font-weight: 700
+}
+
+.exit-button i {
+  color: #333333
+}
+
+.exit-button:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+/* .viewLiveScreen-videoContainer {
+  height: 90vh;
+}
+
+.viewLiveScreen-video {
+  height: 100%;
+  width: 100%;
+  border-radius: 14px;
+  background-color: black;
+  
+} */
+
+
+
+
+
+.cards-container {
+  color: #fff;
+}
+
+.project-card {
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: auto !important;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  /* filter: grayscale(100%); */
+  transition: filter 0.3s ease;
+}
+
+.project-card:hover .project-image {
+  filter: grayscale(0%);
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.project-card {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  height: auto;
+}
+.project-card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+}
+
+.card-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-cards {
+  padding: 0.4rem 0.8rem;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-cards:hover {
+  background: white;
+  color: black;
+}
+
+
+.project-card-comingSoon{
+  height: auto;
+}
+
+.comingSoon-view-card {
+  padding: 0.4rem 0.4rem;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  /* font-size: 14px; */
+  border: 0px;
+}
+
+.comingSoon-view-card:hover {
+  background-color: #bab8b8;
+}
+
+.btn-comingSoon-cards {
+  padding: 0.4rem 0.4rem;
+background: transparent;
+border: 1px solid white;
+border-radius: 5px;
+color: white;
+font-size: 0.85rem;
+text-decoration: none;
+}
+
+
+
+
+
+
+/* Small devices (phones, ≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .carousel-inner {
+    margin-top: 450px;
+    margin-bottom: 30px;
+  }
+
+  .carousel-inner img {
+    height: 450px;
+    width: 300px;
+    object-fit:cover;
+}
+
+
+  .project-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  /* filter: grayscale(100%); */
+  transition: filter 0.3s ease;
+}
+
+.exit-button {
+  margin-top: 8px;
+  margin-right: 30px;
+  border: 0px;
+  border-radius: 100%;
+  height: 45px;
+  width: 45px;
+  top: 0px;
+  right: 0px;
+}
+
+.viewLiveScreen {
+  overflow-y:auto;
+}
+
+.viewLiveScreen-videoContainer {
+  margin-top: 280px;
+}
+
+.viewLiveScreen-video {
+  margin-top: 200px !important;
+  height: 90%;
+  width: 100%;
+  border-radius: 12px;
+  
+}
+}
+
+
+
+
+
+@media (min-width: 391px) and (max-width: 575.98px) {
+
+  .carousel-inner {
+    margin-top: 300px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-inner img {
+    height: 400px;
+    width: 400px;
+    object-fit:fill;
+  }
+
+
+.project-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  /* filter: grayscale(100%); */
+  transition: filter 0.3s ease;
+}
+
+.exit-button {
+  margin-top: 8px;
+  margin-right: 30px;
+  border: 0px;
+  border-radius: 100%;
+  height: 45px;
+  width: 45px;
+  top: 0px;
+  right: 0px;
+}
+
+.viewLiveScreen {
+  overflow-y:auto;
+}
+
+.viewLiveScreen-videoContainer {
+  margin-top: 130px;
+}
+
+.viewLiveScreen-video {
+  margin-top: 200px !important;
+  height: 60%;
+  width: 100%;
+  border-radius: 12px;
+  
+}
+}
+
+
+@media (min-width: 300px) and (max-width: 390px) {
+
+  .carousel-inner {
+    margin-top: 300px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-inner img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .project-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  /* filter: grayscale(100%); */
+  transition: filter 0.3s ease;
+}
+
+.exit-button {
+  margin-top: 8px;
+  margin-right: 20px;
+  border: 0px;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  top: 0px;
+  right: 0px;
+}
+
+.viewLiveScreen {
+  overflow-y:auto;
+}
+
+  .viewLiveScreen-video {
+  margin-top: 200px !important;
+  height: 60%;
+  width: 100%;
+  border-radius: 12px;
+  
+}
+
+.viewLiveScreen-videoContainer {
+  margin-top: 190px;
+}
+}

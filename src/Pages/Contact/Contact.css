@@ -1,0 +1,288 @@
+.aboveContactForm h1{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.aboveContactForm h2 {
+    font-size: 20px;
+}
+
+.contact-leftHalf-lightMode {
+    border-radius: 10px;
+}
+
+.contactInfoTopHeading-lightMode h3 {
+    font-size: 16px;
+}
+
+.contactInfoMiddle-lightMode h3 {
+    font-size: 16px;
+}
+
+.contactInfoMiddle-lightMode i {
+    font-size: 18px;
+}
+
+.contactInfoLower-lightMode div {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.contactInfoLower-lightMode div i {
+    font-size: 26px;
+    transition: color 0.3s ease;
+}
+
+.contactInfoLower-lightMode div:hover {
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.contactInfoLower-lightMode div:hover i {
+    color: white !important;
+}
+
+.contactInfoLower-lightMode a {
+    text-decoration: none;
+}
+
+
+
+
+.contactSelectSubjectIconDiv-Uncheck-lightMode {
+    width: 20px; /* Bigger for better visual */
+    height: 18px;
+    border-radius: 50%; /* 50% is the best way for perfect circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactSelectSubjectIconDiv-Uncheck-lightMode i {
+    font-size: 10px;
+}
+
+.contactSelectSubjectIconDiv-Check-lightMode i {
+    font-size: 10px;
+}
+
+.contactSelectSubjectIconDiv-Check-lightMode {
+    width: 20px; /* Bigger for better visual */
+    height: 18px;
+    border-radius: 50%; /* 50% is the best way for perfect circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactSelectSubjectSelect-lightMode {
+    font-size: 12px;
+}
+
+.contactInputContainingDiv {
+    width: 47%;
+}
+
+.contactMainContainer-lightMode input {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+.contactMainContainer-lightMode input:focus {
+    outline: 0px;
+}
+
+.sendMessageButton-lightMode button {
+    border-radius: 100px;
+}
+
+.clickMeBtnAfterContact {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 180px;
+    font-size: 20px;
+
+    transition: background-color 0.4s ease, transform 0.3s ease;
+
+}
+
+.clickMeBtnAfterContact:hover {
+    /* background-color: rgb(36, 36, 36);
+    background-color: #1e1e1e;  */
+    transform: scale(1.07); 
+}
+
+.headingAfterContact {
+    font-weight: 200;
+    color: black;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-top: 3px solid black;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sendMessageButton-lightMode button:hover .spinner{
+    border: 3px solid white(0, 0, 0, 0.2);
+  border-top: 3px solid white;
+}
+
+.contactInput:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px rgb(255, 255, 255) inset !important; /* Fixes background */
+  -webkit-text-fill-color: black !important; /* Makes text visible */
+  caret-color: black !important;
+  transition: background-color 5000s ease-in-out 0s; /* Prevents flash */
+}
+
+.contactInput:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px rgb(255, 255, 255) inset !important;
+  -webkit-text-fill-color: black !important;
+  caret-color: black !important;
+}
+
+.textAreaContact:focus {
+    outline: 1px solid gray;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .aboveContactForm h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .aboveContactForm h2 {
+        font-size: 18px;
+    }
+    
+    .contactInfoTopHeading-lightMode h2 {
+        font-size: 22px;
+    }
+    
+    
+    .contactInfoTopHeading-lightMode h3 {
+        font-size: 14px;
+    }
+    
+    .contactInfoMiddle-lightMode h3 {
+        font-size: 16px;
+    }
+    
+    .contactInfoMiddle-lightMode i {
+        font-size: 18px;
+    }
+    
+    .contactInfoLower-lightMode div{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .contactInfoLower-lightMode div i {
+        font-size: 18px;
+    }
+  }
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .aboveContactForm h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .aboveContactForm h2 {
+        font-size: 18px;
+    }
+
+    .contactInfoTopHeading-lightMode h2 {
+        font-size: 30px;
+    }
+
+    .contactInfoMiddle-lightMode h3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .contactInfoMiddle-lightMode i {
+        font-size: 24px;
+    }
+
+    .contactInfoLower-lightMode div{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .contactInfoLower-lightMode div i {
+        font-size: 22px;
+    }
+    
+  }
+
+
+@media (max-width: 575.98px) {
+
+
+    .aboveContactForm h1{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    .aboveContactForm h2 {
+        font-size: 16px;
+    }
+
+
+    .contactInfoTopHeading-lightMode h2 {
+        font-size: 26px;
+    }
+
+    .contactInfoTopHeading-lightMode h3 {
+        font-size: 14px;
+    }
+
+    .contactInfoMiddle-lightMode h3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .contactInfoMiddle-lightMode i {
+        font-size: 24px;
+    }
+
+    .contactInfoLower-lightMode div{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .contactInfoLower-lightMode div i {
+        font-size: 22px;
+    }
+  }

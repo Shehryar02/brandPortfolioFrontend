@@ -1,0 +1,171 @@
+.cardsWorkProcess-lightMode {
+  border-radius: 10px;
+}
+
+.cardContainingColumn {
+  width: 35%;
+}
+
+.imageUpperCard-lightMode {
+  border-radius: 10px;
+  height: 40px !important;
+  width: 30%;
+}
+
+.lowerCard-lightMode h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lowerCard-lightMode p {
+  font-size: 14px;
+}
+
+.workProcessPara-lightMode {
+  font-size: 18px;
+}
+
+/* Large devices (desktops, ≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cardContainingColumn {
+    width: 40%;
+  }
+}
+
+/* Medium devices (tablets, ≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cardContainingColumn {
+    width: 50%;
+  }
+
+  .lowerCard-lightMode h3 {
+    font-size: 16px;
+  }
+
+  .lowerCard-lightMode p {
+    font-size: 12px;
+  }
+
+  .workProcessMainHeading-lightMode {
+    font-size: 26px;
+  }
+
+  .workProcessPara-lightMode {
+    font-size: 16px;
+  }
+}
+
+
+
+
+/* Small devices (phones, ≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cardContainingColumn {
+    width: 35%;
+  }
+
+  .lowerCard-lightMode h3 {
+    font-size: 16px;
+  }
+
+  .lowerCard-lightMode p {
+    font-size: 12px;
+  }
+
+  .workProcessMainHeading-lightMode {
+    font-size: 36px;
+  }
+
+  .workProcessPara-lightMode {
+    font-size: 14px;
+  }
+}
+
+/* Extra small devices (phones, <576px) */
+@media (min-width: 506px) and (max-width: 575.98px) {
+  .cardContainingColumn {
+    width: 35%;
+  }
+
+  .lowerCard-lightMode h3 {
+    font-size: 16px;
+  }
+
+  .lowerCard-lightMode p {
+    font-size: 12px;
+  }
+
+  .workProcessMainHeading-lightMode {
+    font-size: 36px;
+  }
+
+  .workProcessPara-lightMode {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 505.98px) {
+  .cardContainingColumn {
+    width: 40%;
+  }
+
+  .lowerCard-lightMode h3 {
+    font-size: 16px;
+  }
+
+  .lowerCard-lightMode p {
+    font-size: 12px;
+  }
+
+  .workProcessMainHeading-lightMode {
+    font-size: 32px;
+  }
+
+  .workProcessPara-lightMode {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 419.98px) {
+  .cardContainingColumn {
+    width: 45%;
+  }
+
+  .lowerCard-lightMode h3 {
+    font-size: 14px;
+  }
+
+  .lowerCard-lightMode p {
+    font-size: 10px;
+  }
+
+  .workProcessMainHeading-lightMode {
+    font-size: 32px;
+  }
+
+  .workProcessPara-lightMode {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 339.98px) {
+  .cardContainingColumn {
+    width: 50%;
+  }
+
+  .lowerCard-lightMode h3 {
+    font-size: 14px;
+  }
+
+  .lowerCard-lightMode p {
+    font-size: 10px;
+  }
+
+  .workProcessMainHeading-lightMode {
+    font-size: 32px;
+  }
+
+  .workProcessPara-lightMode {
+    font-size: 10px;
+  }
+}

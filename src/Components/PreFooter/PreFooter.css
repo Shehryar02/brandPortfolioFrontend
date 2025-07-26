@@ -1,0 +1,33 @@
+.preFooterUnderline-lightMode h6 {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer; /* gives a clickable feel */
+}
+
+.preFooterUnderline-lightMode button {
+    background-color: white;
+    border: 0px;
+    border-bottom: 1.5px solid black;
+    /* text-underline-position: under; */
+    /* text-decoration: underline; */
+    /* font-weight: 700; */
+    font-size: 18px;
+}
+
+@media (min-width: 360px) and (max-width: 389px) {
+  /* Styles for extra small devices */
+  .preFooterUnderline-lightMode button {
+    border-bottom: 1px solid black;
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 359px) {
+  /* Styles for extra small devices */
+  .preFooterUnderline-lightMode button {
+    border-bottom: 1px solid black;
+    font-size: 10px;
+  }
+
+}
