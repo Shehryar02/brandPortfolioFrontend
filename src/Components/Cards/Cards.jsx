@@ -26,11 +26,11 @@ import Videl_e from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tab
 import Videl_f from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/f.png";
 
 import DR_a from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/a.png";
-import DR_b from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/b.png";
-import DR_c from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/c.png";
-import DR_d from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/d.png";
-import DR_e from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/e.png";
-import DR_f from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/f.png";
+import DR_b from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/b.PNG";
+import DR_c from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/c.PNG";
+import DR_d from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/d.PNG";
+import DR_e from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/e.PNG";
+import DR_f from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/f.PNG";
 
 import HandGesture_a from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/a.jpg";
 import HandGesture_b from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/b.webm";
