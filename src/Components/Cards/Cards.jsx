@@ -11,33 +11,33 @@ import handPoster from "../../assets/allWorks/Posters/handPoster_Center.jpg";
 
 // ******************************************** CROUSEL IMAGES ********************************************
 
-import Lofty_a from "../../assets/allWorks/Final Working Images/1. Lofty Mediquip/Tablet & PC/a.png";
-import Lofty_b from "../../assets/allWorks/Final Working Images/1. Lofty Mediquip/Tablet & PC/b.png";
-import Lofty_c from "../../assets/allWorks/Final Working Images/1. Lofty Mediquip/Tablet & PC/c.png";
-import Lofty_d from "../../assets/allWorks/Final Working Images/1. Lofty Mediquip/Tablet & PC/d.png";
-import Lofty_e from "../../assets/allWorks/Final Working Images/1. Lofty Mediquip/Tablet & PC/e.png";
-import Lofty_f from "../../assets/allWorks/Final Working Images/1. Lofty Mediquip/Tablet & PC/f.png";
+import Lofty_a from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/a.png";
+import Lofty_b from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/b.png";
+import Lofty_c from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/c.png";
+import Lofty_d from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/d.png";
+import Lofty_e from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/e.png";
+import Lofty_f from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/f.png";
 
-import Videl_a from "../../assets/allWorks/Final Working Images/2. Videl Tube/Tablet & PC/a.png";
-import Videl_b from "../../assets/allWorks/Final Working Images/2. Videl Tube/Tablet & PC/b.png";
-import Videl_c from "../../assets/allWorks/Final Working Images/2. Videl Tube/Tablet & PC/c.png";
-import Videl_d from "../../assets/allWorks/Final Working Images/2. Videl Tube/Tablet & PC/d.png";
-import Videl_e from "../../assets/allWorks/Final Working Images/2. Videl Tube/Tablet & PC/e.png";
-import Videl_f from "../../assets/allWorks/Final Working Images/2. Videl Tube/Tablet & PC/f.png";
+import Videl_a from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/a.png";
+import Videl_b from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/b.png";
+import Videl_c from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/c.png";
+import Videl_d from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/d.png";
+import Videl_e from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/e.png";
+import Videl_f from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/f.png";
 
-import DR_a from "../../assets/allWorks/Final Working Images/3. Diabetic Retinopathy/Tablet & PC/a.png";
-import DR_b from "../../assets/allWorks/Final Working Images/3. Diabetic Retinopathy/Tablet & PC/b.png";
-import DR_c from "../../assets/allWorks/Final Working Images/3. Diabetic Retinopathy/Tablet & PC/c.png";
-import DR_d from "../../assets/allWorks/Final Working Images/3. Diabetic Retinopathy/Tablet & PC/d.png";
-import DR_e from "../../assets/allWorks/Final Working Images/3. Diabetic Retinopathy/Tablet & PC/e.png";
-import DR_f from "../../assets/allWorks/Final Working Images/3. Diabetic Retinopathy/Tablet & PC/f.png";
+import DR_a from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/a.png";
+import DR_b from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/b.png";
+import DR_c from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/c.png";
+import DR_d from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/d.png";
+import DR_e from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/e.png";
+import DR_f from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/f.png";
 
-import HandGesture_a from "../../assets/allWorks/Final Working Images/4. Hand Gesture/Tablet & PC/a.jpg";
-import HandGesture_b from "../../assets/allWorks/Final Working Images/4. Hand Gesture/Tablet & PC/b.webm";
+import HandGesture_a from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/a.jpg";
+import HandGesture_b from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/b.webm";
 
-import PWFP_a from "../../assets/allWorks/Final Working Images/5. PWFP Posters/Tablet & PC/a.png";
-import PWFP_b from "../../assets/allWorks/Final Working Images/5. PWFP Posters/Tablet & PC/b.png";
-import PWFP_c from "../../assets/allWorks/Final Working Images/5. PWFP Posters/Tablet & PC/c.png";
+import PWFP_a from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/a.png";
+import PWFP_b from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/b.png";
+import PWFP_c from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/c.png";
 
 // ********************************************************************************************************
 
