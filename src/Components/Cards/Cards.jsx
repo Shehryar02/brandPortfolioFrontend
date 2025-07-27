@@ -11,12 +11,12 @@ import handPoster from "../../assets/allWorks/Posters/handPoster_Center.jpg";
 
 // ******************************************** CROUSEL IMAGES ********************************************
 
-import Lofty_a from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/a.png";
-import Lofty_b from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/b.png";
-import Lofty_c from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/c.png";
-import Lofty_d from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/d.png";
-import Lofty_e from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/e.png";
-import Lofty_f from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/f.png";
+import Lofty_a from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/a.PNG";
+import Lofty_b from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/b.PNG";
+import Lofty_c from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/c.PNG";
+import Lofty_d from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/d.PNG";
+import Lofty_e from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/e.PNG";
+import Lofty_f from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/f.PNG";
 
 import Videl_a from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/a.png";
 import Videl_b from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/b.png";
