@@ -19,7 +19,7 @@ import HandGesture_a from "../../assets/allWorks/Final_Working_Images/4_Hand_Ges
 import HandGesture_b from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/b.webm";
 
 import PWFP_a from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/a.png";
-import PWFP_b from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/b.png";
+import PWFP_b from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/b.PNG";
 import PWFP_c from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/c.png";
 
 // ********************************************************************************************************
