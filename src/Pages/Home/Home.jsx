@@ -14,7 +14,7 @@ import handPoster_Left from "../../assets/allWorks/Posters/handPoster_Left.jpg";
 import handPoster_Right from "../../assets/allWorks/Posters/handPoster_Right.jpg";
 
 import graphicDesigningPoster_Center from "../../assets/allWorks/Posters/graphicImage_Center.png";
-import graphicDesigningPoster_Left from "../../assets/allWorks/Posters/graphicImage_Left.png";
+import graphicDesigningPoster_Left from "../../assets/allWorks/Posters/graphicImage_Left.PNG";
 import graphicDesigningPoster_Right from "../../assets/allWorks/Posters/graphicImage_Right.png";
 
 import videlTubePoster_Center from "../../assets/allWorks/Posters/videlTube_Center.jpg";
