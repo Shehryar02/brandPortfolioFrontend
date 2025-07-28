@@ -402,8 +402,8 @@ const OurServices = () => {
               { text: "x2 Brand Color Palette", status: true },
               { text: "Brand Guidelines", status: true },
               { text: "Brochure or Flyer Design", status: true },
-              { text: "Letterhead Design", status: false },
-              { text: "Mockups for Presentation", status: false },
+              { text: "Letterhead Design", status: true },
+              { text: "Mockups for Presentation", status: true },
             ]}
             title="Graphic Designing"
             basicPrice="149"
