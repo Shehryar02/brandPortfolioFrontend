@@ -7,3 +7,17 @@
   color: #555;
   line-height: 1.7;
 }
+
+
+@media (min-width: 327px) and (max-width: 360px) {
+  .privacy-policy li {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 326px) {
+  .privacy-policy li {
+    font-size: 12px;
+  }
+}

@@ -243,11 +243,11 @@ const WorkImageHome = ({
                 <div className="viewLiveScreen-ratingSection">
                   <span className="viewLiveScreen-ratingSectionStar">★</span>
                   <span className="viewLiveScreen-ratingSectionRating">
-                    {selectedProject.rating} / 5
+                    5 / 5
                   </span>
                 </div>
                 <h5 className="mt-3 viewLiveScreen-shortHeading">
-                  See this project on
+                  Follow us on
                 </h5>
                 <div className="d-flex gap-2 mb-md-0 mb-2">
 

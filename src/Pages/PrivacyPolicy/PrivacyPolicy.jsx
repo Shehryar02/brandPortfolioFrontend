@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
                   </Helmet>
 
 
-      <div className="bg-light p-5 rounded-4 shadow-sm border border-secondary-subtle">
+      <div className="bg-light p-sm-5 p-3 rounded-4 shadow-sm border border-secondary-subtle">
         <h1 className="mb-4 text-center border-bottom pb-4 fw-bold">
           <i className="fas fa-file-alt me-2" style={{color: '#343434'}}></i>
           Privacy Policy</h1>

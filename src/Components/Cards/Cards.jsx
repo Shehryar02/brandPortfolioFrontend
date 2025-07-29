@@ -81,7 +81,7 @@ const projects = [
       "No login or sign-up required",
       "Clean and minimal interface",
     ],
-    rating: "4.8",
+    rating: "5",
   },
   {
     id: 3,
@@ -121,7 +121,7 @@ const projects = [
       "Built with YOLO architecture",
       "Optimized for fast inference",
     ],
-    rating: "4.8",
+    rating: "5",
   },
   {
     id: 5,
@@ -141,7 +141,7 @@ const projects = [
       "Creative use of image masking and effects",
       "Powerful storytelling through visuals",
     ],
-    rating: "5.0",
+    rating: "5",
   },
   // Add similar objects for other projects as needed...
 ];

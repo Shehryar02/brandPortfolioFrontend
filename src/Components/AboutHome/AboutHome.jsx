@@ -51,7 +51,7 @@ const AboutHome = () => {
                 onClick={workingAboutMe}
                 className="mt-4 btns-lightMode d-flex align-items-center justify-content-center gap-2 px-3 py-2"
               >
-                About Me
+                About Us
                 <i className="iconFAwesom-lightMode fa-solid fa-arrow-right"></i>
               </button>
             </div>
