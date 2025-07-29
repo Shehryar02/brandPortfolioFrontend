@@ -180,7 +180,6 @@ const WorkImageHome = ({
                             </video>
                           ) : (
                             <img
-                            loading="lazy"
                               src={src}
                               className="d-block w-100 img-fluid"
                               alt={`Slide ${index + 1}`}
