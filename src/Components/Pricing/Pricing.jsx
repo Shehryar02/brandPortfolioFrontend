@@ -1,7 +1,6 @@
 import React from "react";
 import './Pricing.css'
 
-import image4 from "../../assets/Services/SEO_WBG3.png";
 import { useNavigate } from "react-router-dom";
 
 const Pricing = ({image, basicFeatures, premiumFeatures, title, basicPrice, premiumPrice }) => {

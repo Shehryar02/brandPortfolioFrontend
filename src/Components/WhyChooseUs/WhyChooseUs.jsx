@@ -3,13 +3,13 @@ import "./WhyChooseUs.css";
 
 import {
   FaSearch,
-  FaBullseye,
+  // FaBullseye,
   FaChess,
-  FaDraftingCompass,
+  // FaDraftingCompass,
   FaPaintBrush,
-  FaCog,
+  // FaCog,
   FaRocket,
-  FaChartLine,
+  // FaChartLine,
 } from "react-icons/fa";
 
 const WhyChooseUs = () => {

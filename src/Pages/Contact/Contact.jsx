@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './Contact.css';
-import Footer from '../../Components/Footer/Footer';
 import { useLocation, useNavigate } from "react-router-dom";
 
 import { Helmet } from 'react-helmet-async';

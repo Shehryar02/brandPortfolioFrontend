@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "./Navbar.css";
 import { useNavigate, useLocation } from "react-router-dom";
 
-import logo from '../../assets/New Logos/logo1.png'
+import logo from '../../assets/New Logos/logo1.webp'
 
 const Navbar = () => {
   const location = useLocation(); // Get current path
@@ -73,10 +73,6 @@ const Navbar = () => {
       setMenuOpen(false);
       setIsClosing(false);
     }
-  };
-
-  const handleLinkClick = () => {
-    setIsClosing(true);
   };
 
   return (

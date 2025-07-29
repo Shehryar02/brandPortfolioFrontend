@@ -3,13 +3,9 @@ import "./About.css";
 
 import ServiceOffering from "../../Components/ServiceOffering/ServiceOffering";
 import WhyChooseUs from "../../Components/WhyChooseUs/WhyChooseUs";
-import PreFooter from "../../Components/PreFooter/PreFooter";
 
-import companyLogoHard from '../../assets/Logo in White/Crystal Alternative shades/Hard2.png'
-import companyLogoMedium from '../../assets/Logo in White/Crystal Alternative shades/Medium2.png'
-import companyLogoLight from '../../assets/Logo in White/Crystal Alternative shades/Light2.png'
+import companyLogoMedium from '../../assets/Logo in White/Crystal Alternative shades/Medium2.webp'
 
-import personImg3 from "../../assets/About Page/man3.png";
 import { useNavigate } from "react-router-dom";
 
 import { Helmet } from 'react-helmet-async';

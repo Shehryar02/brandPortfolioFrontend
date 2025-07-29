@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import "./OurServices.css";
 
-import SEO from "../../assets/Services/Crystal-Without Background/Search Engine Optimization.png";
-import AI from "../../assets/Services/Crystal-Without Background/Artificial Intelligence Logo.png";
-import WebDev from "../../assets/Services/Crystal-Without Background/Web Development Logo.png";
-import DigitMark from "../../assets/Services/Crystal-Without Background/Digital Marketing Logo.png";
-import Graphics from "../../assets/Services/Crystal-Without Background/Graphic Palette Logo.png";
-import image3 from "../../assets/Services/SEO_WBG2.png";
+import SEO from "../../assets/Services/Crystal-Without Background/Search Engine Optimization.webp";
+import AI from "../../assets/Services/Crystal-Without Background/Artificial Intelligence Logo.webp";
+import WebDev from "../../assets/Services/Crystal-Without Background/Web Development Logo.webp";
+import DigitMark from "../../assets/Services/Crystal-Without Background/Digital Marketing Logo.webp";
+import Graphics from "../../assets/Services/Crystal-Without Background/Graphic Palette Logo.webp";
 import Pricing from "../../Components/Pricing/Pricing";
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -53,7 +52,7 @@ const OurServices = () => {
         <div className="container mb-5">
           <div className="row gap-md-1 gap-sm-3 gap-2 justify-content-center">
             <div className="col-md col-sm-3 col-5 serviceCard-lightMode d-flex flex-column justify-content-center align-items-center">
-              <img src={WebDev} className="img-fluid" alt="SEO" />
+              <img loading="lazy" src={WebDev} className="img-fluid" alt="SEO" />
               <p className="text-center px-lg-4">Web Development</p>
               <ul className="serviceDetails-lightMode mb-0">
                 <li>
@@ -85,7 +84,7 @@ const OurServices = () => {
               </ul>
             </div>
             <div className="col-md col-sm-3 col-5 serviceCard-lightMode d-flex flex-column justify-content-center align-items-center">
-              <img src={AI} className="img-fluid" alt="SEO" />
+              <img loading="lazy" src={AI} className="img-fluid" alt="SEO" />
               <p className="text-center px-lg-4">Artificial Intelligence</p>
               <ul className="serviceDetails-lightMode mb-0">
                 <li>
@@ -117,7 +116,7 @@ const OurServices = () => {
               </ul>
             </div>
             <div className="col-md col-sm-3 col-5 serviceCard-lightMode d-flex flex-column justify-content-center align-items-center">
-              <img src={SEO} className="img-fluid" alt="SEO" />
+              <img loading="lazy" src={SEO} className="img-fluid" alt="SEO" />
               <p className="text-center px-lg-5">SE Optimization</p>
               <ul className="serviceDetails-lightMode mb-0">
                 <li>
@@ -151,7 +150,7 @@ const OurServices = () => {
 
             {/* <div className="row justify-content-center gap-3 lastTwoServiceContainer-smallScreens">
               <div className="col-md col-sm-3 serviceCard-lightMode d-flex flex-column justify-content-center align-items-center">
-                <img src={image3} className="img-fluid" alt="SEO" />
+                <img loading="lazy" src={image3} className="img-fluid" alt="SEO" />
                 <p className="text-center">Search Engine Optimization</p>
                 <ul className="serviceDetails-lightMode mb-0">
                   <li>Keyword Research</li>
@@ -162,7 +161,7 @@ const OurServices = () => {
                 <button className="seePricingBtn-lightMode">See Pricing</button>
               </div>
               <div className="col-md col-sm-3 serviceCard-lightMode d-flex flex-column justify-content-center align-items-center">
-                <img src={image3} className="img-fluid" alt="SEO" />
+                <img loading="lazy" src={image3} className="img-fluid" alt="SEO" />
                 <p className="text-center">Search Engine Optimization</p>
                 <ul className="serviceDetails-lightMode mb-0">
                   <li>Keyword Research</li>
@@ -175,7 +174,7 @@ const OurServices = () => {
             </div> */}
 
             <div className="col-md col-sm-3 col-5 serviceCard-lightMode lastTwoServiceContainer-bigScreen d-flex flex-column justify-content-center align-items-center">
-              <img src={DigitMark} className="img-fluid" alt="SEO" />
+              <img loading="lazy" src={DigitMark} className="img-fluid" alt="SEO" />
               <p className="text-center px-lg-5 px-xl-5 px-xxl-4">
                 Digital Marketing
               </p>
@@ -209,7 +208,7 @@ const OurServices = () => {
               </ul>
             </div>
             <div className="col-md col-sm-3 col-5 serviceCard-lightMode lastTwoServiceContainer-bigScreen d-flex flex-column justify-content-center align-items-center">
-              <img src={Graphics} className="img-fluid" alt="SEO" />
+              <img loading="lazy" src={Graphics} className="img-fluid" alt="SEO" />
               <p className="text-center px-lg-4">Graphic Designing</p>
               <ul className="serviceDetails-lightMode mb-0">
                 <li>

@@ -2,25 +2,25 @@ import React, { useEffect, useState } from "react";
 import "./WorkImageHome.css"
 
 
-import graphicDesigningPoster from "../../assets/allWorks/Posters/graphicImage_Center.png"
-import videlTubePoster from "../../assets/allWorks/Posters/videlTube_Center.jpg"
-import handPoster from "../../assets/allWorks/Posters/handPoster_Center.jpg";
+import graphicDesigningPoster from "../../assets/allWorks/Posters/graphicImage_Center.webp"
+import videlTubePoster from "../../assets/allWorks/Posters/videlTube_Center.webp"
+import handPoster from "../../assets/allWorks/Posters/handPoster_Center.webp";
 
 // ******************************************** CROUSEL IMAGES ********************************************
 
-import Videl_a from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/a.png";
-import Videl_b from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/b.png";
-import Videl_c from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/c.png";
-import Videl_d from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/d.png";
-import Videl_e from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/e.png";
-import Videl_f from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/f.png";
+import Videl_a from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/a.webp";
+import Videl_b from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/b.webp";
+import Videl_c from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/c.webp";
+import Videl_d from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/d.webp";
+import Videl_e from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/e.webp";
+import Videl_f from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/f.webp";
 
-import HandGesture_a from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/a.jpg";
+import HandGesture_a from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/a.webp";
 import HandGesture_b from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/b.webm";
 
-import PWFP_a from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/a.png";
-import PWFP_b from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/b.PNG";
-import PWFP_c from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/c.png";
+import PWFP_a from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/a.webp";
+import PWFP_b from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/b.webp";
+import PWFP_c from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/c.webp";
 
 // ********************************************************************************************************
 
@@ -180,6 +180,7 @@ const WorkImageHome = ({
                             </video>
                           ) : (
                             <img
+                            loading="lazy"
                               src={src}
                               className="d-block w-100 img-fluid"
                               alt={`Slide ${index + 1}`}
@@ -296,9 +297,12 @@ const WorkImageHome = ({
           <div className="container ">
             <div className="work-scroll-wrapper d-lg-flex justify-content-center">
               <div className="scroll-images justify-content-center d-flex gap-2">
-                <img src={workImage2} className="workImage" alt="" />
-                <img src={workImage} className="workImage" alt="" />
-                <img src={workImage3} className="workImage" alt="" />
+                <img
+                loading="lazy" src={workImage2} className="workImage" alt="" />
+                <img
+                loading="lazy" src={workImage} className="workImage" alt="" />
+                <img
+                loading="lazy" src={workImage3} className="workImage" alt="" />
               </div>
             </div>
             <div className="mt-sm-4 mt-2 d-flex justify-content-between align-items-center">

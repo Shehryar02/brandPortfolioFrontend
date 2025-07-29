@@ -9,17 +9,17 @@ import PreFooter from '../../Components/PreFooter/PreFooter'
 
 // ********************************** POSTERS **********************************
 
-import handPoster_Center from "../../assets/allWorks/Posters/handPoster_Center.jpg";
-import handPoster_Left from "../../assets/allWorks/Posters/handPoster_Left.jpg";
-import handPoster_Right from "../../assets/allWorks/Posters/handPoster_Right.jpg";
+import handPoster_Center from "../../assets/allWorks/Posters/handPoster_Center.webp";
+import handPoster_Left from "../../assets/allWorks/Posters/handPoster_Left.webp";
+import handPoster_Right from "../../assets/allWorks/Posters/handPoster_Right.webp";
 
-import graphicDesigningPoster_Center from "../../assets/allWorks/Posters/graphicImage_Center.png";
-import graphicDesigningPoster_Left from "../../assets/allWorks/Posters/graphicImage_Left.PNG";
-import graphicDesigningPoster_Right from "../../assets/allWorks/Posters/graphicImage_Right.png";
+import graphicDesigningPoster_Center from "../../assets/allWorks/Posters/graphicImage_Center.webp";
+import graphicDesigningPoster_Left from "../../assets/allWorks/Posters/graphicImage_Left.webp";
+import graphicDesigningPoster_Right from "../../assets/allWorks/Posters/graphicImage_Right.webp";
 
-import videlTubePoster_Center from "../../assets/allWorks/Posters/videlTube_Center.jpg";
-import videlTubePoster_Left from "../../assets/allWorks/Posters/videlTube_Left.jpg";
-import videlTubePoster_Right from "../../assets/allWorks/Posters/videlTube_Right.jpg";
+import videlTubePoster_Center from "../../assets/allWorks/Posters/videlTube_Center.webp";
+import videlTubePoster_Left from "../../assets/allWorks/Posters/videlTube_Left.webp";
+import videlTubePoster_Right from "../../assets/allWorks/Posters/videlTube_Right.webp";
 
 // ******************************************************************************
 

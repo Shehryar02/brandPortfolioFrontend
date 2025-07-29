@@ -2,42 +2,42 @@ import React, { useEffect, useState, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./Cards.css";
 
-import drPoster from "../../assets/allWorks/Posters/diabeticRetinopathyPoster.png";
-import graphicDesigningPoster from "../../assets/allWorks/Posters/graphicImage_Center.png";
-import digitalMarketingPoster from "../../assets/allWorks/Posters/digitalMarketingPoster.png";
-import videlTubePoster from "../../assets/allWorks/Posters/videlTube_Center.jpg";
-import mediquipPoster from "../../assets/allWorks/Posters/mediquipPoster.jpg";
-import handPoster from "../../assets/allWorks/Posters/handPoster_Center.jpg";
+import drPoster from "../../assets/allWorks/Posters/diabeticRetinopathyPoster.webp";
+import graphicDesigningPoster from "../../assets/allWorks/Posters/graphicImage_Center.webp";
+import digitalMarketingPoster from "../../assets/allWorks/Posters/digitalMarketingPoster.webp";
+import videlTubePoster from "../../assets/allWorks/Posters/videlTube_Center.webp";
+import mediquipPoster from "../../assets/allWorks/Posters/mediquipPoster.webp";
+import handPoster from "../../assets/allWorks/Posters/handPoster_Center.webp";
 
 // ******************************************** CROUSEL IMAGES ********************************************
 
-import Lofty_a from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/a.PNG";
-import Lofty_b from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/b.PNG";
-import Lofty_c from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/c.PNG";
-import Lofty_d from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/d.PNG";
-import Lofty_e from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/e.PNG";
-import Lofty_f from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/f.PNG";
+import Lofty_a from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/a.webp";
+import Lofty_b from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/b.webp";
+import Lofty_c from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/c.webp";
+import Lofty_d from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/d.webp";
+import Lofty_e from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/e.webp";
+import Lofty_f from "../../assets/allWorks/Final_Working_Images/1_Lofty_Mediquip/Tablet&PC/f.webp";
 
-import Videl_a from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/a.png";
-import Videl_b from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/b.png";
-import Videl_c from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/c.png";
-import Videl_d from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/d.png";
-import Videl_e from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/e.png";
-import Videl_f from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/f.png";
+import Videl_a from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/a.webp";
+import Videl_b from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/b.webp";
+import Videl_c from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/c.webp";
+import Videl_d from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/d.webp";
+import Videl_e from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/e.webp";
+import Videl_f from "../../assets/allWorks/Final_Working_Images/2_Videl_Tube/Tablet&PC/f.webp";
 
-import DR_a from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/a.png";
-import DR_b from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/b.PNG";
-import DR_c from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/c.PNG";
-import DR_d from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/d.PNG";
-import DR_e from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/e.PNG";
-import DR_f from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/f.PNG";
+import DR_a from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/a.webp";
+import DR_b from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/b.webp";
+import DR_c from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/c.webp";
+import DR_d from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/d.webp";
+import DR_e from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/e.webp";
+import DR_f from "../../assets/allWorks/Final_Working_Images/3_Diabetic_Retinopathy/Tablet&PC/f.webp";
 
-import HandGesture_a from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/a.jpg";
+import HandGesture_a from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/a.webp";
 import HandGesture_b from "../../assets/allWorks/Final_Working_Images/4_Hand_Gesture/Tablet&PC/b.webm";
 
-import PWFP_a from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/a.png";
-import PWFP_b from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/b.PNG";
-import PWFP_c from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/c.png";
+import PWFP_a from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/a.webp";
+import PWFP_b from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/b.webp";
+import PWFP_c from "../../assets/allWorks/Final_Working_Images/5_PWFP_Posters/Tablet&PC/c.webp";
 
 // ********************************************************************************************************
 
@@ -245,6 +245,7 @@ const Cards = () => {
                             </video>
                           ) : (
                             <img
+                            loading="lazy"
                               src={src}
                               className="d-block w-100 img-fluid"
                               alt={`Slide ${index + 1}`}
@@ -367,6 +368,7 @@ const Cards = () => {
             >
               <div className="project-card">
                 <img
+                loading="lazy"
                   src={project.imageCard}
                   alt={project.title}
                   className="project-image"
@@ -392,6 +394,7 @@ const Cards = () => {
           <div className="col-lg-4 col-sm-6 project-card-comingSoon">
             <div className="project-card">
               <img
+              loading="lazy"
                 src={digitalMarketingPoster}
                 alt="Coming Soon"
                 className="project-image"

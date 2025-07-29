@@ -12,27 +12,14 @@ const ServiceOffering = () => {
     <div>
       <div className="container-fluid mt-lg-5 pt-lg-3">
         <div className="container">
-          {/* Heading */}
-          {/* <div className="aboveContactForm d-flex flex-column justify-content-center align-items-center mb-md-5 mb-4">
-            <h1>What we offer</h1>
-            <h2 className="text-center">
-              Passionate creators dedicated to building impactful digital
-              experiences for your business.
-            </h2>
-          </div> */}
+
 
           <div className="row">
             <div className="col-md-4 col-sm-4 mt-md-0 mt-3 justify-content-center d-flex">
               <div className="d-flex flex-column justify-content-center align-items-center">
                 <BsCodeSlash
                   className="reactIcons"
-                  // style={{
-                  //   color: "#000000",
-                  //   fontSize: "3rem",
-                  //   fontWeight: "bolder",
-                  //   stroke: "#000000",
-                  //   strokeWidth: "0.2px",
-                  // }}
+     
                 />
                 <p
                   className="servicePara-lightMode mt-md-3 mt-sm-2 mt-2 text-center"

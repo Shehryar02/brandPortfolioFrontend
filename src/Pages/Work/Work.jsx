@@ -2,7 +2,6 @@ import React from "react";
 import "./Work.css";
 
 import Cards from "../../Components/Cards/Cards";
-import PreFooter from "../../Components/PreFooter/PreFooter";
 import { useNavigate } from "react-router-dom";
 
 import { Helmet } from 'react-helmet-async';
