@@ -11,7 +11,7 @@ const LegalNotice = () => {
                   </Helmet>
 
 
-      <div className="p-5 bg-light rounded-4 shadow-sm border border-1 border-secondary-subtle">
+      <div className="p-sm-5 p-3 bg-light rounded-4 shadow-sm border border-1 border-secondary-subtle">
         <h2 className="mb-4 fw-bold border-bottom pb-4 text-center" style={{color: '#343434'}}>
           <i className="fas fa-file-alt me-2" style={{color: '#343434'}}></i>
           Legal Notice / Impressum
