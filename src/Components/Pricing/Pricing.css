@@ -81,6 +81,171 @@
   font-size: 20px;
 }
 
+
+
+
+
+
+.pricingLastSection {
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.pricingLastSection_2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pricingLastSection_main {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+
+.discountTag {
+  background: linear-gradient(to right, #282828, #2f2f2f);
+  color: white;
+  padding: 6px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.discountTag_Prev del {
+  color: gray;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.dicsountTagLower {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px; 
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+.pricebox_premium {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.dicsountTagLower h3 {
+  font-size: 20px;
+}
+
+.dicsountTagLower_2 {
+  /* border: 1px solid black; */
+  /* background-color: white; */
+  padding: 6px;
+  border-radius: 10px; 
+  width: 100%;
+  margin-top: 10px;
+}
+
+.dicsountTagLower_2 h3{
+  font-size: 20px;
+}
+
+
+
+
+.discount-button {
+  background: linear-gradient(to right, #282828, #2f2f2f);
+
+  color: white;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  /* cursor: pointer; */
+  /* transition: transform 0.2s ease; */
+}
+
+/* .discount-button:hover {
+  transform: scale(1.05);
+} */
+
+.contact-button {
+  background-color: #fcfcfc;
+  color: #1b1b1b;
+  border: 1px solid #242424;
+  border-radius: 6px;
+  padding: 0.6rem 1.3rem;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.contact-button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Styles for large devices */
+
+.pricebox_premium {
+  padding: 20px;
+  
+}
+
+.pricingLastSection_main {
+    padding-bottom: 10px;
+  }
+
+.pricingLastSection {
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.pricingLastSection_2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.discountTag_Prev del {
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.discountTag {
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.discount-button {
+  margin-top: 20px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+}
+
+.discount-button h3 {
+  font-size: 20px;
+}
+
+.contact-button h3{
+  font-size: 20px;
+}
+
+.contact-button {
+  padding: 0.6rem 1.3rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+}
+
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .pricingHeading-lightMode {
     font-size: 24px;
@@ -104,6 +269,61 @@
     height: 35px;
     width: 140px;
   }
+
+
+
+
+
+  .pricebox_premium {
+  padding: 12px;
+  
+}
+
+.pricingLastSection_main {
+    padding-bottom: 10px;
+  }
+
+.pricingLastSection {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.pricingLastSection_2 {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.discountTag_Prev del {
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.discountTag {
+  padding: 4px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.discount-button {
+  margin-top: 20px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+}
+
+.discount-button h3 {
+  font-size: 16px;
+}
+
+.contact-button h3{
+  font-size: 16px;
+}
+
+.contact-button {
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

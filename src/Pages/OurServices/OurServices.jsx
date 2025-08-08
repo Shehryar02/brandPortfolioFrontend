@@ -246,7 +246,7 @@ const OurServices = () => {
         <div className="aboveContactForm d-flex flex-column justify-content-center align-items-center mb-md-4 mb-4">
           <h1>Pricing</h1>
           <h2 className="text-center">
-            Clear pricing, real value — built for your vision
+            Flexible pricing, real value — built for your vision
           </h2>
         </div>
 
@@ -256,30 +256,21 @@ const OurServices = () => {
           <Pricing
             image={WebDev}
             basicFeatures={[
-              { text: "Responsive Design", status: true },
-              { text: "Integrated Contact Form", status: true },
-              { text: "CMS Integration", status: true },
-              { text: "Custom Domain Configuration", status: true },
-              { text: "Performance Enhancement (Basic)", status: true },
-              { text: "1 Revision Cycle", status: true },
-              { text: "Security Integration", status: false },
-              { text: "Website Analytics Setup", status: false },
-              { text: "E-commerce Functionality", status: false },
-            ]}
-            premiumFeatures={[
-              { text: "Responsive Design", status: true },
-              { text: "Integrated Contact Form", status: true },
-              { text: "CMS Integration", status: true },
-              { text: "Custom Domain Integration", status: true },
-              { text: "Performance Enhancement (Advance)", status: true },
-              { text: "3 Revision Cycles", status: true },
-              { text: "Security Integration", status: true },
-              { text: "Website Analytics Setup", status: true },
-              { text: "E-commerce Functionality", status: true },
+              { text: "Custom Website Development", status: true },
+              { text: "WordPress Website Development", status: true },
+              { text: "Responsive Web Design", status: true },
+              { text: "E-Commerce Website Development", status: true },
+              { text: "Website Redesign & Revamp", status: true },
+              { text: "CMS Integration & Customization", status: true },
+              { text: "Website Maintenance & Support", status: true },
+              { text: "Security Setup & Malware Protection", status: true },
+              { text: "Domain & Hosting Setup", status: true },
+              { text: "SEO-Optimized Development", status: true },
+              { text: "Website Speed & Performance Optimization", status: true },
             ]}
             title="Web Development"
-            basicPrice="259"
-            premiumPrice="359"
+            originalPrice="150"
+            discountPrice="90"
           />
         </div>
 
@@ -288,32 +279,21 @@ const OurServices = () => {
             image={AI}
             basicFeatures={[
               { text: "AI Strategy Consultation", status: true },
-              { text: "Data Cleaning and Preprocessing", status: true },
-              { text: "Basic Workflow Automation", status: true },
-              {
-                text: "Essential NLP Tools like Text Summarization",
-                status: true,
-              },
-              { text: "Ready-to-Use AI Chatbot", status: true },
-              { text: "English Voice-to-Text Conversion", status: true },
-              { text: "Predictive Modeling", status: false },
-              { text: "Image and Video Enhancement", status: false },
-              { text: "Custom AI Dashboard", status: false },
-            ]}
-            premiumFeatures={[
-              { text: "AI Strategy Consultation", status: true },
-              { text: "Data Cleaning and Preprocessing", status: true },
-              { text: "Advanced Workflow Automation", status: true },
-              { text: "Full Suite of NLP Tools", status: true },
-              { text: "Custom AI Chatbot with Logic", status: true },
-              { text: "Multilingual Voice-to-Text Conversion", status: true },
-              { text: "Predictive Modeling", status: true },
-              { text: "AI-Powered Image and Video Enhancement", status: true },
-              { text: "Interactive AI Dashboard", status: true },
+              { text: "AI Model Training & Optimization", status: true },
+              { text: "AI-Powered Chatbot Development", status: true },
+              { text: "Machine Learning Model Development", status: true },
+              { text: "Natural Language Processing (NLP)", status: true},
+              { text: "Computer Vision Solutions", status: true },
+              { text: "Predictive Analytics & Forecasting", status: true },
+              { text: "AI Automation for Business Workflows", status: true },
+              { text: "Recommendation Systems", status: true },
+              { text: "Data Annotation & Labeling Services", status: true },
+              { text: "Generative AI Solutions", status: true },
+              { text: "Custom AI API Development", status: true },
             ]}
             title="Artificial Intelligence"
-            basicPrice="259"
-            premiumPrice="359"
+            originalPrice="150"
+            discountPrice="90"
           />
         </div>
 
@@ -321,30 +301,22 @@ const OurServices = () => {
           <Pricing
             image={SEO}
             basicFeatures={[
-              { text: "Basic Keyword Research", status: true },
+              { text: "Website SEO Audit", status: true },
+              { text: "Keyword Research & Strategy", status: true },
               { text: "On-Page SEO Optimization", status: true },
-              { text: "Google My Business Setup", status: true },
-              { text: "Mobile-Friendly SEO Check", status: true },
-              { text: "1-Time SEO Audit", status: true },
-              { text: "Technical SEO Fixes", status: false },
-              { text: "Backlink Building", status: false },
-              { text: "Monthly SEO Reporting", status: false },
-              { text: "Local SEO Optimization", status: false },
-            ]}
-            premiumFeatures={[
-              { text: "Advanced Keyword Research", status: true },
-              { text: "On-Page, Off-Page & Technical SEO", status: true },
-              { text: "GMB Setup & Local SEO Boost", status: true },
-              { text: "Monthly SEO Reports + Action Plan", status: true },
-              { text: "3-Times SEO Audit", status: true },
-              { text: "Technical SEO Fixes", status: true },
-              { text: "High-Quality Backlink Building", status: true },
-              { text: "Monthly SEO Reporting", status: true },
-              { text: "Mobile + Page Speed Optimization", status: true },
+              { text: "Technical SEO ", status: true },
+              { text: "Off-Page SEO", status: true },
+              { text: "Local SEO Optimization", status: true },
+              { text: "Content Optimization & Strategy", status: true },
+              { text: "SEO-Friendly Website Structure Setup", status: true },
+              { text: "SEO for WordPress", status: true },
+              { text: "Schema Markup & Structured Data Implementation", status: true },
+              { text: "Competitor SEO Analysis", status: true },
+              { text: "Monthly SEO Performance Reporting", status: true },
             ]}
             title="SEO Optimization"
-            basicPrice="359"
-            premiumPrice="459"
+            originalPrice="180"
+            discountPrice="105"
           />
         </div>
 
@@ -352,32 +324,22 @@ const OurServices = () => {
           <Pricing
             image={DigitMark}
             basicFeatures={[
-              { text: "Social Media Profile Setup", status: true },
-              { text: "1-Platform Content Calendar", status: true },
-              { text: "Basic Graphic Design Posts & Stories", status: true },
-              { text: "1 Platform Ad Campaign", status: true },
-              { text: "3 Email Newsletter / Month", status: true },
-              { text: "Hashtag & Caption Strategy", status: true },
-              { text: "Google Business Profile Setup", status: true },
-              { text: "Monthly Performance Snapshot Report", status: false },
-              { text: "Strategy & Growth Session", status: false },
-              { text: "Lead Magnet Design", status: false },
-            ]}
-            premiumFeatures={[
-              { text: "3-Platform Social Media Management", status: true },
-              { text: "Content Calendar + Daily Posts", status: true },
-              { text: "Custom Graphic + Video Creation", status: true },
-              { text: "Targeted Ad Campaigns", status: true },
-              { text: "Email Marketing Automation & Funnels", status: true },
-              { text: "Influencer/Brand Collaboration Strategy", status: true },
-              { text: "SEO Blog Posting (3/Month)", status: true },
-              { text: "Real-Time Analytics Dashboard", status: true },
-              { text: "Monthly Strategy & Growth Call", status: true },
-              { text: "Lead Magnet & Landing Page Design", status: true },
+              { text: "Social Media Marketing", status: true },
+              { text: "Search Engine Marketing", status: true },
+              { text: "Content Marketing", status: true },
+              { text: "Email Marketing Campaigns", status: true },
+              { text: "Affiliate Marketing", status: true },
+              { text: "Conversion Rate Optimization", status: true },
+              { text: "Online Reputation Management", status: true },
+              { text: "Video Marketing & YouTube SEO", status: true },
+              { text: "Marketing Strategy & Consulting", status: true },
+              { text: "Paid Social Ads", status: true },
+              { text: "Retargeting & Remarketing Ads", status: true },
+              { text: "Lead Magnet Design", status: true },
             ]}
             title="Digital Marketing"
-            basicPrice="199"
-            premiumPrice="299"
+            originalPrice="120"
+            discountPrice="70"
           />
         </div>
 
@@ -386,27 +348,21 @@ const OurServices = () => {
             image={Graphics}
             basicFeatures={[
               { text: "Logo Design", status: true },
+              { text: "Brand Identity Design", status: true },
+              { text: "Social Media Post Design", status: true },
               { text: "Business Card Design", status: true },
-              { text: "1 Social Media Post Design", status: true },
-              { text: "Basic Brand Color Palette", status: true },
-              { text: "Brand Guidelines (Text Only)", status: true },
-              { text: "Brochure or Flyer Design", status: false },
-              { text: "Letterhead Design", status: false },
-              { text: "Mockups for Presentation", status: false },
-            ]}
-            premiumFeatures={[
-              { text: "Logo Design with 3 variations", status: true },
-              { text: "Business Card Design with 2 variations", status: true },
-              { text: "3 Social Media Post Design", status: true },
-              { text: "x2 Brand Color Palette", status: true },
-              { text: "Brand Guidelines", status: true },
-              { text: "Brochure or Flyer Design", status: true },
-              { text: "Letterhead Design", status: true },
-              { text: "Mockups for Presentation", status: true },
+              { text: "Brochure & Flyer Design", status: true },
+              { text: "Poster & Banner Design", status: true },
+              { text: "Packaging & Label Design", status: true },
+              { text: "Presentation Design", status: true },
+              { text: "T-Shirt & Merchandise Design", status: true },
+              { text: "Advertisement Design", status: true },
+              { text: "Illustration & Icon Design", status: true },
+              { text: "Photo Editing & Retouching", status: true },
             ]}
             title="Graphic Designing"
-            basicPrice="149"
-            premiumPrice="249"
+            originalPrice="100"
+            discountPrice="60"
           />
         </div>
       </div>
