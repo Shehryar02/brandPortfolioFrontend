@@ -68,9 +68,9 @@ const Pricing = ({image, originalPrice, discountPrice, basicFeatures, premiumFea
                     <h3 className="m-0 text-center">Flat 40% Off on All Services</h3>
                   </div>
 
-                  <div className="dicsountTagLower_2 contact-button">
+                  <button onClick={()=>{window.scrollTo({ top: 0, behavior: 'smooth' });navigate("/contact");}} className="dicsountTagLower_2 contact-button">
                     <h3 className="m-0 text-center">Contact Us</h3>
-                  </div>
+                  </button>
 
               </div>
               </div>

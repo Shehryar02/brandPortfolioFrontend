@@ -194,10 +194,11 @@ const handleSubmit = async (e) => {
                     {errors.email && <p style={{ color: 'red', fontSize: '0.9rem' }}>{errors.email}</p>}
                   </div>
                   <div className='contactInputContainingDiv'>
-                    <h6>Phone Number <span style={{ color: 'gray', fontWeight: '200' }}>(optional)</span></h6>
+                    <h6 className='d-flex flex-column'>Phone Number </h6>
                     <input
                     className='contactInput'
                       type="text"
+                      placeholder='(Optional)'
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                     />
