@@ -274,7 +274,7 @@
 
 
 
-  .pricebox_premium {
+.pricebox_premium {
   padding: 12px;
   
 }
@@ -364,6 +364,14 @@
   }
 
 
+
+
+
+
+
+  
+
+
 }
 
 @media (min-width: 450px) and (max-width: 545px) {
@@ -398,6 +406,58 @@
     height: 35px;
     width: 160px;
   }
+
+
+
+  .pricebox_premium {
+  padding: 12px;
+  
+}
+
+.pricingLastSection_main {
+    padding-bottom: 10px;
+  }
+
+.pricingLastSection {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.pricingLastSection_2 {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.discountTag_Prev del {
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.discountTag {
+  padding: 4px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.discount-button {
+  margin-top: 20px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+}
+
+.discount-button h3 {
+  font-size: 16px;
+}
+
+.contact-button h3{
+  font-size: 16px;
+}
+
+.contact-button {
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
 }
 
 @media (min-width: 360px) and (max-width: 449px) {
@@ -431,6 +491,60 @@
     height: 35px;
     width: 120px;
   }
+
+
+
+
+
+.pricebox_premium {
+  padding: 10px;
+  
+}
+
+.pricingLastSection_main {
+    padding-bottom: 10px;
+  }
+
+.pricingLastSection {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricingLastSection_2 {
+  font-size: 7px;
+  font-weight: 700;
+}
+
+.discountTag_Prev del {
+  font-weight: 800;
+  margin-left: 3px;
+}
+
+.discountTag {
+  padding: 6px;
+  font-size: 8px;
+  margin-left: 5px;
+}
+
+.discount-button {
+  margin-top: 20px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+}
+
+.discount-button h3 {
+  font-size: 12px;
+}
+
+.contact-button h3{
+  font-size: 12px;
+}
+
+.contact-button {
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
 }
 
 @media (min-width: 300px) and (max-width: 359px) {
@@ -465,4 +579,59 @@
     height: 30px;
     width: 110px;
   }
+
+
+
+
+
+  .pricebox_premium {
+  padding: 10px;
+  
+}
+
+.pricingLastSection_main {
+    padding-bottom: 10px;
+  }
+
+.pricingLastSection {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricingLastSection_2 {
+  font-size: 6px;
+  font-weight: 600;
+}
+
+.discountTag_Prev del {
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.discountTag {
+  padding: 6px;
+  font-size: 8px;
+  margin-left: 5px;
+}
+
+.discount-button {
+  margin-top: 20px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+}
+
+.discount-button h3 {
+  font-size: 10px;
+}
+
+.contact-button h3{
+  font-size: 10px;
+}
+
+.contact-button {
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
 }

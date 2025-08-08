@@ -55,7 +55,7 @@ const Pricing = ({image, originalPrice, discountPrice, basicFeatures, premiumFea
 
               {/* PREMIUM SECTION */}
 
-              <div className="col-md-5 col-5 py-3  d-flex flex-column justify-content-center align-items-center">
+              <div className="col-md-5 col-5 py-3 p-0  d-flex flex-column justify-content-center align-items-center">
                   <div className="pricebox_premium">
                   <div className="pricingLastSection_main">
                     <h2 className="pricingLastSection m-0">Our pricing is flexible and based on your selected service</h2>
